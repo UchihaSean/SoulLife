@@ -1,0 +1,54 @@
+<ion-view  title="健康" cache-view="false">
+  <ion-content padding="false" class="has-header">
+
+    <div class="tabs-striped tabs-color-mycolor" style="position: relative;">
+        <div class="tabs">
+          <a class="tab-item" href="" ng-click="health()">
+            <i class="icon ion-happy-outline"></i>
+            健康评估
+          </a>
+          <a class="tab-item" href="" ng-click="evaluate()">
+            <i class="icon ion-coffee"></i>
+            膳食评估
+          </a>
+          <a class="tab-item" href="" ng-click="clock()">
+            <i class="icon ion-android-alarm-clock"></i>
+            健康提醒
+          </a>
+        </div>
+    </div>
+    <div class="item item-text-wrap" style="margin-top:50px;">
+         <div class="title h4 mytitle1">膳食百科</div>
+
+         <div class="myp1 show1"><p>这顿你想吃什么（请选择食材）</p></div>
+         <div class="mywrapper show1">
+         <div class="item mycard">里脊肉</div>
+         <div class="item mycard">木耳</div>
+         <div class="item mycard">黄豆</div>
+         <div class="item mycard">鸡肉</div>
+         <div class="item mycard">鸡蛋</div>
+         <div class="item mycard">西红柿</div>
+         <div class="item mycard">金针菇</div>
+         <div class="item mycard">牛肉</div>
+         <div class="item mycard">羊肉</div>
+         <div class="item mycard">豆腐</div>
+         <div class="item mycard">鱼</div>
+         <div class="item mycard">青菜</div>
+
+        </div>
+        <div class="show1"><input class="food-input" type="text" ng-model="myfood.food"><button class="button button-size" ng-click="getFood()">提交</button></div>
+        <div class="show2" ng-repeat="item in description">
+            <div><p>{{item}}</p></div>
+            <button class="button button-size-center show2" ng-click="get()">知道了</button>
+        </div>
+         <div class="line"></div>
+         <div class="myp2"><p>当前{{response}}，{{response1}}</p></div>
+
+
+    </div>
+
+
+
+
+  </ion-content>
+</ion-view>

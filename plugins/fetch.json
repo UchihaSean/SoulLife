@@ -1,0 +1,8 @@
+{
+    "cn.net.test": {
+        "source": {
+            "type": "local",
+            "path": "ExtraInfo"
+        }
+    }
+}

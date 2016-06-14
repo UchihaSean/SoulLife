@@ -1,0 +1,14 @@
+{
+  "name": "js-soap-client",
+  "homepage": "https://github.com/gtathub/js-soap-client",
+  "_release": "51a132f8da",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "51a132f8dabad9aae42ea2d181b41529a975bc73"
+  },
+  "_source": "https://github.com/gtathub/js-soap-client.git",
+  "_target": "*",
+  "_originalSource": "js-soap-client",
+  "_direct": true
+}

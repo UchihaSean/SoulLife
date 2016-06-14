@@ -1,0 +1,72 @@
+/* Empty. Add your own CSS if you like */
+
+.item h5{
+  margin-top: 5px;
+
+}
+.item p{
+  font-size: 8px;
+  margin-bottom: 0px;
+
+
+}
+.red-font{
+  color: red !important;
+}
+
+.item-border{
+  border-bottom: 1px solid gray;
+}
+.move-left{
+  position: relative;
+  left:-20px;
+}
+.arrow-my{
+  float: right;
+  margin-bottom:-30px !important;
+  position: relative;
+  top:-35px;
+}
+.item-thumbnail-left img{
+
+}
+
+.item-border{
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+}
+.move-down-10{
+  margin-top: 10px !important;
+}
+.button.button-positive{
+    border-color: #8DEEEE;
+    background-color: #8DEEEE;
+}
+.login-button{
+    width: 90% !important;
+    margin: 0 auto;
+}
+.login-button :active{
+    border-color: #8DEEEE !important;
+    background-color: #8DEEEE !important;
+
+}
+.input{
+    width: 95% !important;
+    height: 40px !important;
+    border: 1px solid #ddd !important;
+    margin: 0 auto;
+}
+.left{
+    margin-left: 10px;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+}
+.right{
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    float: right;;
+}

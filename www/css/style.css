@@ -1,0 +1,237 @@
+/* Empty. Add your own CSS if you like */
+
+.item h5{
+  margin-top: 5px;
+
+}
+.item p{
+  font-size: 12px;
+  margin-bottom: 0px;
+
+
+}
+/**/
+.item-shop-border{
+    width: 310px;
+    float: left;
+    margin: 0px 8px;
+    padding: 0px;
+    /*border: 1px solid gray;*/
+}
+.item-shop-div{
+    width: 140px;
+    margin: 5px 6px;
+    float: left;
+    /*border: 1px solid gray;*/
+}
+
+.item-shop-border img{
+    width: 100px;
+    height: 100px;
+    margin: 3px 20px;
+}
+.item-shop-border p{
+    font-size: 12px;
+    margin: 3px auto;
+    text-align: center;
+}
+.item-health-image-border{
+    width: 300px;
+    margin: 0 auto;
+}
+.item-health-image-small{
+    width: 130px;
+    margin: 5px auto;
+}
+.item-health-image{
+    width: 200px;
+    /*left: -200px;*/
+    margin: 10px 50px;
+}
+.item-border .move-down-10{
+    font-size: 12px;
+}
+.item-clock-input{
+    display: inline;
+    vertical-align:middle;
+    width: 190px;
+    height: 20px;
+    border: 1px solid #dddddd;
+    margin: 5px 0px;
+    padding: 5px 2px;
+}
+
+.item-add{
+    width: 250px;
+    height: 30px;
+}
+.item-clock-list{
+    border: dashed 1px #8DEEEE;
+    margin: 3px;
+}
+
+
+/**/
+.red-font{
+  color: red !important;
+}
+
+.item-border{
+  border-bottom: 1px solid gray;
+}
+.move-left{
+  position: relative;
+  left:-20px;
+}
+.arrow-my{
+  float: right;
+  margin-bottom:-30px !important;
+  position: relative;
+  top:-30px;
+}
+.arrow-bitch{
+    float: right;
+    margin-bottom:-30px !important;
+    position: relative;
+    top:-20px;
+}
+.item-thumbnail-left img{
+
+}
+
+.item-border{
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+}
+.move-down-10{
+  margin-top: 10px !important;
+}
+.button.button-positive{
+    border-color: #8DEEEE;
+    background-color: #8DEEEE;
+}
+.login-button{
+    width: 90% !important;
+    margin: 0 auto;
+}
+.login-button :active{
+    border-color: #8DEEEE !important;
+    background-color: #8DEEEE !important;
+
+}
+.input{
+    width: 95% !important;
+    height: 40px !important;
+    border: 1px solid #ddd !important;
+    margin: 0 auto;
+}
+.left{
+    margin-left: 10px;
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+}
+.right{
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    float: right;;
+}
+.mycard{
+    width: 30%;
+    height:15px;
+    float: left;
+    line-height: 15px;
+    font-size: 15px;
+    margin-left: 3.5%;
+}
+.mytitle1{
+    width: 30%;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+.mywrapper{
+    width: 100%;
+    max-height: 300px;
+    float: left;
+    padding-bottom: 20px;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border-bottom: 1px solid #dddddd;
+}
+.myp1{
+    margin-top:10px;
+    width: 60%;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+.food-input[type="text"]{
+    display: inline;
+    vertical-align:middle;
+    margin-left: 5%;
+    width: 50%;
+    height: 20px;
+    border:1px solid #ddd;
+}
+
+.button-size{
+    display: inline;
+    vertical-align:middle;
+    margin-left: 10%;
+    width: 25%;
+    height: 20px;
+    border-color: #8DEEEE;
+    background-color: #8DEEEE;
+    box-shadow: inset 0 1px 4px rgba(0,0,0,.1);
+    min-width: 25%;
+    min-height: 20px;
+    line-height: 18px;
+    color: #ffffff;
+
+}
+.button-size-center{
+    margin-top: 10px;
+    margin-left: 35%;
+    width: 27%;
+    height: 20px;
+    border-color: #8DEEEE;
+    background-color: #8DEEEE;
+    box-shadow: inset 0 1px 4px rgba(0,0,0,.1);
+    min-width: 25%;
+    min-height: 20px;
+    line-height: 18px;
+    color: #ffffff;
+}
+.myp2 p{
+    font-size: 12px;
+}
+.item-clock-button{
+    display: inline;
+    vertical-align:middle;
+    border-color: #8DEEEE;
+    background-color: #8DEEEE;
+
+    color: #ffffff;
+    width: 20%;
+    height: 20px;
+    line-height: 10px;
+    margin-left: 5px;
+
+}
+.button-out{
+    border-color: #e42112;
+    background-color: #ef473a;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    margin-left: 27%;
+    margin-top: 20px;
+}

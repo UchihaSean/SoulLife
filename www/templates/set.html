@@ -1,0 +1,36 @@
+<ion-view title="设置" >
+  <ion-content padding="false" scroll="false" class=" manual-remove-top-padding has-header">
+
+
+
+      <div class="list">
+               <label class="item item-input item-stacked-label">
+                   <span class="input-label">身高</span>
+                   <input class="input" type="text" placeholder="身高／cm" ng-model=setForm.height>
+               </label>
+               <label class="item item-input item-stacked-label">
+                   <span class="input-label">体重</span>
+                   <input class="input" type="text" placeholder="体重／kg" ng-model=setForm.weight>
+               </label>
+               <label class="item item-input item-stacked-label">
+                   <span class="input-label">年龄</span>
+                   <input class="input" type="text" placeholder="年龄／周岁" ng-model=setForm.age>
+               </label>
+               <label class="item item-input item-stacked-label">
+                   <span class="input-label">性别</span>
+                   <input class="input" type="text" placeholder="男／女" ng-model=setForm.sex>
+               </label>
+               <label class="item item-input item-stacked-label">
+                   <span class="input-label">我的个人描述</span>
+                   <input class="input" type="text" placeholder="这家伙很懒，什么都没留下" ng-model=setForm.description>
+               </label>
+
+    </div>
+           <!--ui-sref="main.tabs"-->
+    <button class="button  button-block button-positive login-button"  ng-click="myset()"  >修改</button>
+
+
+
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,24 @@
+<ion-view title="登录" >
+  <ion-content padding="false" class=" manual-remove-top-padding has-header">
+
+
+
+           <div class="list">
+   <label class="item item-input item-floating-label">
+     <span class="input-label">账号</span>
+     <input class="input" type="text" placeholder="账号" ng-bind="logForm.account">
+   </label>
+   <label class="item item-input item-floating-label">
+     <span class="input-label">密码</span>
+     <input class="input" type="text" placeholder="密码" ng-bind="logForm.password">
+   </label>
+
+    </div>
+           <!--ui-sref="main.tabs"-->
+    <button class="button  button-block button-positive login-button"  ng-click="login()"  >登录</button>
+
+    <span><span  class="left"><a href="" ng-click="regist()">立即注册</a></span><span class="right"><a href="" ng-click="">忘记密码</a></span></span>
+
+
+  </ion-content>
+</ion-view>

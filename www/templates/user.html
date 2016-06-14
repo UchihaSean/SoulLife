@@ -1,0 +1,23 @@
+<ion-view title="用户" id="page5">
+  <ion-content padding="false" class=" manual-remove-top-padding has-header">
+    <ion-list>
+      <a class="item item-avatar" href="" ng-click="login()">
+        <img src="http://www.runoob.com/try/demo_source/venkman.jpg">
+        <h2>{{user.username}}</h2>
+        <p>{{user.description}}</p>
+        <p class=" ion-chevron-right arrow-my" ></p>
+      </a>
+
+
+      <ion-item class="item-divider"></ion-item>
+    </ion-list>
+    <ion-list>
+      <ion-item ><a href="" ng-click="set()"><p>我的健康数据</p><p class=" ion-chevron-right arrow-bitch" ></p></a></ion-item>
+      <ion-item class="item-border"><p>瘦身计划</p><p class=" ion-chevron-right arrow-bitch" ></p></ion-item>
+      <ion-item class="item-border"><p>我的收藏</p><p class=" ion-chevron-right arrow-bitch" ></p></ion-item>
+      <ion-item class="item-border"><p>统计分析</p><p class=" ion-chevron-right arrow-bitch" ></p></ion-item>
+      <ion-item class="item-border"><p>猜你喜欢</p><p class=" ion-chevron-right arrow-bitch" ></p></ion-item>
+    </ion-list>
+    <button class="button-out" ng-click="out()">退出登录</button>
+  </ion-content>
+</ion-view>

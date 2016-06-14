@@ -1,0 +1,10 @@
+{
+  "name": "CloudExplorer",
+  "app_id": "",
+  "proxies":[
+    {
+        "path":"/api",
+        "proxyUrl":"http://www.cooldomain.com/SoapTest/webservicedemo.asmx"
+    }
+  ]
+}

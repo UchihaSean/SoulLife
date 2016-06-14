@@ -1,0 +1,38 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"ExtraInfo\"><param name=\"android-package\" value=\"cn.net.test.ExtraInfo\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cn.net.test": {
+            "PACKAGE_NAME": "com.soapj"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cn.net.test/www/ExtraInfo.js",
+            "id": "cn.net.test.ExtraInfo",
+            "clobbers": [
+                "cordova.plugins.ExtraInfo"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cn.net.test": "0.0.1"
+    }
+}

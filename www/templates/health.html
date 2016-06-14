@@ -1,0 +1,30 @@
+<ion-view  title="健康" cache-view="false">
+  <ion-content padding="false" class="has-header">
+
+    <div class="tabs-striped tabs-color-mycolor" style="position: relative;">
+      <div class="tabs">
+        <a class="tab-item" href="" ng-click="health()">
+          <i class="icon ion-happy-outline"></i>
+          健康评估
+        </a>
+        <a class="tab-item" href="" ng-click="evaluate()">
+          <i class="icon ion-coffee"></i>
+          膳食评估
+        </a>
+        <a class="tab-item" href="" ng-click="clock()">
+          <i class="icon ion-android-alarm-clock"></i>
+          健康提醒
+        </a>
+      </div>
+    </div>
+    <div class="item item-text-wrap" style="margin-top:50px;">
+         <p>您的健康评估：{{eva[0]}}</p>
+         <p>{{eva[1]}}</p>
+         <div class="item-health-image-border mmshow">
+                    <img class="item-health-image-small" src="img/chicken.jpeg">
+                    <img class="item-health-image-small" src="img/fish.jpeg">
+        </div>
+    </div>
+
+  </ion-content>
+</ion-view>
